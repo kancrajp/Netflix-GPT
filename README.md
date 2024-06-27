@@ -46,11 +46,9 @@
 - Build custom hooks for different movies list
 
 - GPT search feature
-  - GPT search page
-  - GPT search bar
-  - Multi-lingual feature for GPT search
-  - Integrate GPT API
-    - Get OpenAI key
+  -  search page
+  -  search bar
+  - Multi-lingual feature for  search
 
 # Browse Page
 
@@ -85,6 +83,6 @@ if user is not logged In, then Login/Sign up page will be display
     - Movie Suggestions
       - Movie list \* N
 
-* Netflix GPT
+* Netflix 
   - Search bar
   - Movie suggestions
