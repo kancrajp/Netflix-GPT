@@ -45,7 +45,7 @@
 - Tailwind CSS to style the secondary containers
 - Build custom hooks for different movies list
 
-- GPT search feature
+-  search feature
   -  search page
   -  search bar
   - Multi-lingual feature for  search
