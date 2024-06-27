@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Netflix GPT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Launch project using create-react-app
+- Configure Tailwind CSS
+- Build Header
+- Routing
+- Create Login Page
+- Create Sign Up Page
+  - Form Validation (useRef Hook)
+- Firebase for authentication
+  - Firebase setup
+  - deploy app in production
+- Create Sign up user account
 
-## Available Scripts
+- Implement Sign In user API
+- Created Redux Store with user slice
+- Implement Sign Out
+- Updated Profile API
+- Build Movies - fetch movies from TMDB
 
-In the project directory, you can run:
+# Bug fix
 
-### `npm start`
+- Sign up dosplay name and profile photo
+- if the user is not logged In then redirect to login page and vice versa
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- unsubscribe to the unAuthstatechange callback
+- add hard coded values to the constant files
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- register for TMDB website and craete an & get access token
+- get data from the get now playing movies list API
+- Created Custom Hooks from now playing movies
+- created movie slice
+- update the store with movie data
+- created main and seondary container
+- fetch data for trailer video
+- update the store with trailer video data and embebed you tube data video
+  and make it autoplay
+- Tailwind CSS to style the containers
+- Build secondary component
 
-### `npm test`
+  - Build movie card
+  - Build movie list
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- TMDB image CDN
+- Tailwind CSS to style the secondary containers
+- Build custom hooks for different movies list
 
-### `npm run build`
+- GPT search feature
+  - GPT search page
+  - GPT search bar
+  - Multi-lingual feature for GPT search
+  - Integrate GPT API
+    - Get OpenAI key
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Browse Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Main container
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - video playing in the background
+  - video name , title, description
 
-### `npm run eject`
+- other container
+  - movies \* n
+  - cards \* n
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+user will go to the browse page only after authentication
+if user is not logged In, then Login/Sign up page will be display
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- when user will Sign In/Sign Up, then will add the user data in redux store and
+  nevigate the user to the browse page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Login/SignUp
 
-## Learn More
+  - Sign In and Sign up page
+  - post login, will redirect to the browse page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Browse Page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  - Header
+  - Main Movie
+    - Trailer playing in the background
+    - Title and Description
+    - Movie Suggestions
+      - Movie list \* N
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Netflix GPT
+  - Search bar
+  - Movie suggestions
