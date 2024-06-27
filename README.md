@@ -1,4 +1,4 @@
-# Netflix GPT
+# Netflix 
 
 - Launch project using create-react-app
 - Configure Tailwind CSS
@@ -17,9 +17,6 @@
 - Implement Sign Out
 - Updated Profile API
 - Build Movies - fetch movies from TMDB
-
-# Bug fix
-
 - Sign up dosplay name and profile photo
 - if the user is not logged In then redirect to login page and vice versa
 
