@@ -35,7 +35,3 @@ export const SUPPORTED_LANG = [
     name: "Spanish",
   },
 ];
-
-export const GPT_KEY = "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";
-
-export const GEMINI_KEY = "AIzaSyAbOzlKofNF0pi3_PLJitNvjak3RxkE6LA";
